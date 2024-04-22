@@ -3,199 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil de usuario</title>
-    <style>
-
-nav ul {
-  display: flex;
-  justify-content: space-between;
-}
-        img{
-  width: 400px;
-  height: 400px;
-  padding: 10px;
-}
-
+    <title>📚Clara_books📖</title>
+    <link rel="stylesheet" href="css/estilos.css">
     
-        .libros {
-            background-color: white;
-            margin: 5px;
-            padding: 5px;
-            color: white;
-            
-
-        }    
-        
-        .rounded {
-            border-radius: 5px;
-        }
-        .impar {
-            background-color: beige; 
-            height: 30px;
-            padding: 30px; 
-            border: 2px white;
-            display: inline;
-            position: relative;
-}
-        .par {
-            background-color: burlywood; 
-            height: 30px;
-            padding: 30px; 
-            border: 2px white;
-            display: inline;
-            position: relative;
-
-        }
-
-        
-        .libros {
-            position: relative;
-            display: inline-block; 
-            }
-
-            .container {
-
-  margin: 0 0 1rem;
-  height: 10rem;
-  display: flex;
-  align-items: start;
-}
-.center-h {
-  justify-content: center;
-}
-.center-v {
-  align-items: center;
-}
-
-        </style>
-
-        
+     
 </head>
-<body style="background-image: url(/imgs/Fondo\ 3.png)">
+<body>
 
-    <h1 style="border-left: 10px;">📚Clara_books📖</h1>
-
-    <div>
-        <img style="width: 300px; height: 300px; margin-left: 60px; margin-bottom: 30px;border-radius: 50%;" src="imgs/chicaleyendo.jpg">
+    <div class="flexx"> 
+        <img class="fperfil" src="imgs/chicaleyendo.jpg" alt="fotoperfil">
 
     </div>
-<nav>
-    <div class="container center-h center-v ">
-       
-
-    <span class="impar rounded">
-    Clara Romero 
-    </span>
-
-    <span class="par rounded">
-    Sevilla
-    </span>
-
-    <span class="impar rounded">
-    23 años
-    </span>
-
-    <span class="par rounded">
-    Filóloga Inglesa
-    </span>
-
-    <span class="impar rounded">
-    Lectora empedernida 😍
-    </span>
-</div>
-
-    <table border= "1">
-        <tr>
-            <td> 
-                <h2>HOBBIES</h2>
-                   
-            </td>
-           
-            <td>
-                <h2>COMIDA FAVORITA</h2>
-            </td>
-            
-            <td>
-                <h2>LIBRO FAVORITO</h2>
-            </td>
-
-            <td>
-                <h2>PERSONAJE FAVORITO</h2>
-            </td>
-
-            <td>
-                <h2>HABILIDADES</h2>
-            </td>
-
-
-        </tr>
-        <tr>
-
-            <td>
-                <p>Leer y salir con mis amigos</p>
-            </td>
+    <div class="flexx">
+        <div class="nombreperfil cnombreperfil">📚Clara_books📖</div></div>
     
-            <td> 
-            <p>Macarrones</p>
-               
-        </td>
-       
-        <td>
-            <p>El priorato del naranjo</p>
-        </td>
-        
-        <td>
-            <p>Aragon</p>
-        </td>
-
-       
-        <td>
-            <p>Soy una persona muy creativa</p>
-        </td>
-</tr>
-        
-
-    
-    </table>
 
    
-</nav>
-   <main>
-    <div id="imagenes1 container center-h center-v">
 
-        <img src="imgs/acotar libros.jpg" class="libros">
-        <img src="imgs/blackwater.jpg" class="libros">
-        <img src="imgs/elimperiofinal.jpg"class="libros">
-
-    </div>
-        
-    <div id="imagenes2 container center-h center-v child ">
-        <img src="imgs/priorato del naranjo.jpg"class="libros">
-        <img src="imgs/sangreycenizas2.jpg"class="libros">
-        <img src="imgs/senordelosanillos.jpg"class="libros"> 
-    </div>
-
-    <div id="imagenes3 container center-h center-v child ">
-        <img src="imgs/priorato del naranjo.jpg"class="libros">
-        <img src="imgs/sangreycenizas2.jpg"class="libros">
-        <img src="imgs/senordelosanillos.jpg"class="libros"> 
-    </div>
-
-    <div id="imagenes4 ">
-        <img src="imgs/cuento perfecto.jpg"class="libros">
-        <img src="imgs/narnialibros.jpg"class="libros">
-        <img src="imgs/harrypotter.jpg"class="libros"> 
-    </div>
-
-   </main>
-  <div> 
-    <table>     
-     <td> #booktok</td>
-    <td> #romance</td>
-    <td>#librosrecomendados</td>
-    <td>#fantasy</td>
-</table>
+<div class="flexx cajapresentacion">
+    
+    <div class="cajas impar fuente">Clara Romero</div>
+    <div class="cajas par fuente">Sevilla</div>
+    <div class="cajas impar fuente">23 años</div>
+    <div class="cajas par fuente">Lectora empedernida 😍</div>
 </div>
+
+
+<div class="cajatabla flexx">
+
+    <table class="styled-table"> 
+        <thead class="styled-table thead tr"> 
+            <tr> 
+                <th>HOBBIES</th> 
+                <th>COMIDA FAVORITA</th> 
+                <th>LIBRO FAVORITO</th> 
+                <th>PERSONAJE FAVORITO</th>
+                <th>HABILIDADES</th>
+            </tr> 
+        </thead> 
+        <tbody class="styled-table tbody tr"> 
+            <tr> 
+                <td>Leer y salir con mis amigos</td> 
+                <td>Macarrones</td> 
+                <td>El priorato del naranjo</td> 
+                <td>Legolas</td> 
+                <td>Soy una persona muy creativa</td> 
+        </tbody> 
+    </table>
+</div>
+   
+
+    
+   
+    <div class="flexx ffila">
+
+        <div class="libros"><img class="imgs" src="imgs/acotar libros.jpg" ></div>
+        <div class="libros"><img class="imgs" src="imgs/blackwater.jpg" ></div>
+        <div class="libros"><img class="imgs" src="imgs/elimperiofinal.jpg"></div>
+
+    
+    </div>
+
+    <div class="flexx ffila">
+
+        <div class="libros"><img class="imgs" src="imgs/cuento perfecto.jpg" ></div>
+        <div class="libros"><img class="imgs" src="imgs/sangreycenizas2.jpg" ></div>
+        <div class="libros"><img class="imgs" src="imgs/senordelosanillos.jpg"></div>
+
+    
+    </div>
+
+    <div class="flexx ffila">
+
+        <div class="libros"><img class="imgs" src="imgs/harrypotter.jpg" ></div>
+        <div class="libros"><img class="imgs" src="imgs/narnialibros.jpg" ></div>
+        <div class="libros"><img class="imgs" src="imgs/priorato del naranjo.jpg"></div>
+
+    
+    </div>
+
+    <div class="flexx">
+
+        <div class="libros"><img class="imgs" src="imgs/librosycafé.jpg" ></div>
+        <div class="libros"><img class="imgs" src="imgs/dune.jpg" ></div>
+        <div class="libros"><img class="imgs" src="imgs/alasdesangre.jpg"></div>
+
+    
+    </div>
+  <div class="fuente footer"> 
+    
+    <div>#romance</div> 
+    <div>#librosrecomendados</div>
+    <div>#fantasy</div>
+       
+  </div>
    
     
     

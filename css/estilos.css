@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(/imgs/Fondo\ 3.png);
+    background-size: contain;
+}
+
+.flexx{
+    display: flex;
+    gap: 3px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.cajas {
+
+    width: 400px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+.fperfil{
+    width: 400px; 
+    height: 400px;
+    margin-top: 30px;
+
+    border: 20px solid white; 
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nombreperfil{
+    
+    color: #a6630c;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cnombreperfil{
+    
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    border: 3px solid wheat;
+    border-radius: 4px;
+
+    
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.fuente{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: x-large;
+}
+          
+.cajapresentacion{
+    margin: 30px;
+
+} 
+  .impar {
+
+    width: 300px;
+    background-color: beige; 
+    height: 100px; 
+    border: 2px solid white;
+
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.par {
+
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: burlywood; 
+    height: 100px;
+    border: 2px solid white;
+    
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.cajatabla{
+    background-color: beige;
+    margin: 20px;
+    box-sizing: content-box;
+}
+
+.styled-table { 
+
+    
+    border-collapse: collapse; 
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 100%;
+    height: 50px;
+    font-size: 1em; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); 
+}
+
+.styled-table thead tr { 
+    background-color: #a6630c; 
+    color: #ffffff; 
+    text-align: justify; }
+
+.styled-table tbody tr { 
+    border-bottom: 1px dashed #dddddd; } 
+
+
+
+
+.libros {
+              background-color: white;
+              margin: 5px;
+              padding: 5px;
+              color: white;
+              
+  
+          }    
+
+.imgs{
+            width: 450px;
+            height: 450px;
+            padding: 10px;
+            margin: 1px;
+          }
+          
+          
+          
+.footer {
+    margin: 30px;
+    display: flex;
+    gap: 4px;
+    justify-content: space-evenly;
+
+}  
+                    
+  
+
+  
