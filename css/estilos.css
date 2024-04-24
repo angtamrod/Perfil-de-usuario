@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url(/imgs/Fondo\ 3.png);
+    background-image: url(/imgs/fondo3.png);
     background-size: contain;
 }
 
@@ -82,6 +82,10 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: lighter;
     font-size: x-large;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
           
 .cajapresentacion{
@@ -150,13 +154,12 @@ body{
     border-bottom: 1px dashed #dddddd; } 
 
 
-
-
 .libros {
-              background-color: white;
-              margin: 5px;
-              padding: 5px;
-              color: white;
+          
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    color: white;
               
   
           }    
